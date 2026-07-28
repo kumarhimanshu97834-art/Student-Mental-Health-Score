@@ -1,54 +1,57 @@
-# Student Mental Health Score Prediction API
+# Student Mental Health Score Prediction - Frontend
 
 ## 📌 Overview
 
-This project provides a Machine Learning based API to predict a student's mental health score using lifestyle, academic, and digital usage related features.
+This is the frontend interface for the Student Mental Health Score Prediction application.
 
-The trained ML model is deployed using FastAPI and provides prediction through REST API endpoints.
+The web application allows users to enter their lifestyle, academic, and digital usage details and get a predicted mental health score through a deployed Machine Learning API.
 
 ---
 
-## 🚀 Live API
+## 🚀 Live Demo
 
-Base URL:
+Frontend Application:
+
+https://student-mental-health-score-4.onrender.com
+
+Backend API:
 
 https://student-mental-health-score-3.onrender.com
 
-API Documentation (Swagger UI):
+API Documentation:
 
 https://student-mental-health-score-3.onrender.com/docs
 
 ---
 
+## ✨ Features
+
+- User-friendly prediction form
+- Input validation
+- Real-time API communication
+- Mental health score visualization
+- Responsive web design
+- Error handling for invalid inputs
+
+---
+
 ## 🛠️ Technologies Used
 
-- Python
-- FastAPI
-- Uvicorn
-- Scikit-learn
-- Pandas
-- NumPy
-- Joblib
+- HTML
+- CSS
+- JavaScript
+- FastAPI (Backend API Integration)
 - Render (Deployment)
 
 ---
 
-## 📊 Model Features
+## 🔄 Application Workflow
 
-The API accepts the following inputs:
+1. User enters personal and lifestyle information.
+2. Frontend collects form data.
+3. Data is sent to FastAPI backend using REST API.
+4. Machine Learning model predicts the mental health score.
+5. Prediction result is displayed to the user.
 
-- Age
-- Gender
-- Country
-- Academic Level
-- Most Used Platform
-- Purpose of Use
-- Average Daily Usage Hours
-- Daily Unlocks
-- Study Hours
-- Physical Activity Hours
-- Sleep Hours Per Night
-- Stress Level
-
-
+---
 
