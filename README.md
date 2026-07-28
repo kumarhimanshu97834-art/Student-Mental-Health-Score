@@ -12,7 +12,7 @@ The web application allows users to enter their lifestyle, academic, and digital
 
 Frontend Application:
 
-https://student-mental-health-score-4.onrender.com
+https://student-mental-health-score-5.onrender.com
 
 Backend API:
 
